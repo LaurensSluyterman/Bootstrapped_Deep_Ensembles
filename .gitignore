@@ -1,0 +1,9 @@
+.DS_Store
+.idea/
+__pycache__/
+_SHELVE_LOCATION
+savednetworks/
+Distribution check.py
+Results
+UCI-experiment.py
+NN test.py
