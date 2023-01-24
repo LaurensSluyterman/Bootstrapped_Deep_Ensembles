@@ -66,7 +66,9 @@ def reverse_normalized(x_normalized, mean, std):
 
 
 def load_data(directory):
-    """Load data from given directory"""
+    """Load data from given directory. This code-snipped was forked and adapted from 
+    Yarin Gal's github.
+    """
     _DATA_FILE = "./UCI_Datasets/" + directory + "/data/data.txt"
     _INDEX_FEATURES_FILE = "./UCI_Datasets/" + directory + "/data/index_features.txt"
     _INDEX_TARGET_FILE = "./UCI_Datasets/" + directory + "/data/index_target.txt"
